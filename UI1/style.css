@@ -1,0 +1,153 @@
+body{
+    background-color: #c4ebfa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Header{
+    height: 10vh;
+    background-color: #03bfb1;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    flex: 1;
+}
+.content{
+    display: flex;
+    flex: 5;
+    height: 68vh;
+}
+
+.Aside{
+    flex: 1;
+    background-color: #6edb6e;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+}
+.Article{
+    flex: 2;
+    background-color: #fbb04c;
+    margin: 15px;
+    font-size: 35px;
+    color: white;
+}
+.image{
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer{
+    height: 10vh;
+    background-color: #03bfb1;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    flex: 1;
+}
+.upper{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    background-color: #6edb6e;
+}
+.image div{
+    margin: 15px;
+    background-color: #fdd249;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.imagein{
+    height: 200px;
+    width: 200px;
+    background-color: #fdd249;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.upper1{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.lower1{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.upper1 div{
+    background-color: #6edb6e;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+}
+.lower1 div{
+    background-color: #6edb6e;
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+    margin-top: 0px;
+}
+.inside{
+    background-color: #6edb6e;
+    height:50%;
+    width: 45%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side{
+    background-color: #6edb6e;
+    height: 35%;
+    width: 35%;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,284 @@
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Layout{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    height: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    .main{        
+        display: flex;
+        flex: 4;
+        width: 100%;
+        gap: 15px;
+        .profile{
+            height: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            min-width: 250px;
+            box-shadow: 0px 0px 5px 0px #888888;
+            .DP{
+                flex: 2;
+                display: flex;
+                height: fit-content;
+                width: 100%;
+                position: relative;
+                .name{
+                    position: absolute;
+                    bottom: 8px;
+                    left: 10px;
+                    font-size: 30px;
+                }
+            }
+            .current{
+                display: flex;
+                height: 200px;
+                flex: 1;
+                width: calc(100% - 20px);
+                padding: 10px;
+                
+                .icon{
+                    display: flex;
+                    flex-direction: column;
+                    width: 60px;
+                    height: 100%;
+                }
+                .icon >div{
+                    display: flex;
+                    flex: 1;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 25px;
+                    padding: 8px 0px;
+                    color: #009688;
+                }
+                .ref >div{
+                    display: flex;
+                    flex: 1;
+                    justify-content: flex-start;
+                    margin-left: 10px;
+                    align-items: space-between;
+                    font-size: 16px;
+                    padding: 8px 0px;
+                    color: #757575;
+                }
+                .ref{
+                    // height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+            .skill{
+                display: flex;
+                border-top: solid 1px #f1f1f1;
+                flex-direction: column;
+                width: calc(100% - 20px);
+                flex: 1;
+                padding: 10px;
+                .head{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    .icon{
+                        display: flex;
+                        flex-direction: column;
+                        width: 60px;
+                        color: #009688;
+                        font-size: 20px;
+                    }
+                    .ref{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #757575;
+                    }
+                }
+                .title{
+                    font-size: 15px;
+                    color: #757575;
+                    padding: 10px;
+                }
+                .stat{
+                    flex: 1;
+                }
+                .stat >.bar{
+                    width: 95%;
+                    height: 18px;
+                    color: #ffffff;
+                    background-color: #f1f1f17f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    position: relative;
+                    .color{
+                        // width: 90%;
+                        text-align: center;
+                        height: 18px;
+                        background-color: #009688;
+                        border-radius: 10px;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    .text{
+                        color: #ffffff;
+                        text-align: center;
+                        position: absolute;
+                    }
+                }
+                
+            }
+            .language{
+                display: flex;
+                flex-direction: column;
+                width: calc(100% - 20px);
+                flex: 1;
+                padding: 10px;
+                .head{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    .icon{
+                        display: flex;
+                        flex-direction: column;
+                        width: 60px;
+                        color: #009688;
+                        font-size: 20px;
+                    }
+                    .ref{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #757575;
+                    }
+                }
+                .title{
+                    font-size: 15px;
+                    color: #757575;
+                    padding: 10px;
+                }
+                .stat{
+                    flex: 1;
+                }
+                .stat >.bar{
+                    width: 95%;
+                    height: 22px;
+                    color: #ffffff;
+                    background-color: #f1f1f17f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    position: relative;
+                    .color{
+                        // width: 90%;
+                        text-align: center;
+                        height: 18px;
+                        background-color: #009688;
+                        border-radius: 10px;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    .text{
+                        color: #ffffff;
+                        text-align: center;
+                        position: absolute;
+                    }
+                }
+                
+            }
+        }
+        .details{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            flex: 2;
+            flex-direction: column;
+            gap: 10px;
+            .workexp , .education{
+                box-shadow: 0px 0px 5px 0px #888888;
+                background-color: #ffffff;
+                .title{
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 15px;
+                    font-size: 36px;
+                    color: #757575;
+                    height: 60px;
+                    padding: 15px;
+                }
+                .front , .web, .Graphic{
+                    margin-left: 30px;
+                    .head{
+                        color: #757575;
+                        font-weight: bolder;
+                        font-size: 20px;
+                    }
+                    .date{
+                        display: flex;
+                        gap: 10px;
+                        padding: 15px;
+                        padding-left: 0px;
+                        color: #009688;
+                        font-size: 15px;
+                        .box{
+                            color: white;
+                            background-color: #009688;
+                            height: 18px;
+                            width: 60px;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                    }
+                    .border{
+                        border-bottom: 1px solid #f1f1f1;
+                        padding: 10px;
+                        width: 95%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    width: calc(100% - 50px);
+    height: 100%;
+    flex: 1;
+    background-color: #009688;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 25px;
+    div{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .Layout{
+        width: 100%;
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

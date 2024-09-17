@@ -269,9 +269,14 @@ body{
     div{
         display: flex;
         gap: 10px;
+        transition: all 0.2s;
     }
 }
-
+.social :hover{
+    cursor: pointer;
+    color: #ffffffb7;
+    transform: scale(1.1);
+}
 
 
 @media screen and (max-width: 600px){

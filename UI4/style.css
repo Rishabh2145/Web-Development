@@ -266,6 +266,13 @@ body {
 .footer div {
   display: flex;
   gap: 10px;
+  transition: all 0.2s;
+}
+
+.social :hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7176470588);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {

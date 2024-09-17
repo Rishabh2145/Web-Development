@@ -1,6 +1,5 @@
 Welcome to the repository for my UI Development Course! This repo contains all the tasks and assignments I’ve completed as part of the course.
 
-
 📜 Course Outline
 
 	This repository covers various aspects of UI development, including:

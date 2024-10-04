@@ -26,7 +26,6 @@ body {
         align-items: center;
         height: 85vh;
         width: 70vw;
-        border: 8px white solid;
         border-radius: 5px;
         background-color: rgba(0, 0, 0);
         background-color: rgba(0, 0, 0, 0.3);
@@ -55,4 +54,10 @@ body {
         
     }
 
+}
+@media screen and (max-width : 800px){
+    .title{
+        margin: 10px 45px;
+        max-width: 70%;
+    }
 }
